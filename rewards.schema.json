@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "start_time": {"type": "string"},
+        "end_time": {"type": "string"},
+        "platform": {"type": "string"},
+        "token": {"type": "string"},
+        "token_amount": {"type": "number"},
+        "max_claimers": {"type": "number"},
+        "auto_distribute": {"type": "boolean"},
+        "banners": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "aspect_ratio": {
+                        "type": "string"
+                    },
+                    "image": {"type": "string"},
+                    "animation": {"type": "string"}
+                }
+            }
+        },
+        "type": {
+            "type": "string",
+            "enum": [
+                "on-chain",
+                "off-chain"
+            ]
+        }
+    },
+    "required": [
+        "id",
+        "title",
+        "description",
+        "start_time",
+        "end_time",
+        "platform",
+        "token",
+        "token_amount",
+        "max_claimers",
+        "auto_distribute",
+        "type"
+    ]
+}

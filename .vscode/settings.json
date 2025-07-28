@@ -1,0 +1,12 @@
+{
+    "json.schemas": [
+        {
+            "url":"/consumables.schema.json",
+            "fileMatch": ["*.consumable.json"]
+        },
+        {
+            "url": "/rewards.schema.json",
+            "fileMatch": ["*.reward.json"]
+        }
+    ]
+}

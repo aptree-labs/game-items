@@ -1,0 +1,9 @@
+{
+    "id": "freeze",
+    "title": "Tree Freeze",
+    "description": "Freeze your tree to maintain your streak",
+    "image": "",
+    "purchasable": true,
+    "purchase_token": "APT",
+    "purchase_token_amount": 0.3
+}
