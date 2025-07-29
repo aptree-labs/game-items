@@ -1,9 +1,0 @@
-{
-    "id": "water",
-    "title": "Water for your trees",
-    "description": "Purchase to water one of your trees",
-    "image": "",
-    "purchase_token": "APT",
-    "purchase_token_amount": 1,
-    "purchasable": true
-}

@@ -1,9 +1,10 @@
 {
     "id": "revival",
-    "title": "Tree Revival",
-    "description": "Revive a dead tree",
+    "title": "Revival Can",
+    "description": "A powerful essence that brings your tree back from the brink, giving it a second chance to grow.",
     "purchasable": true,
     "purchase_token": "APT",
     "purchase_token_amount": 0.5,
-    "image": ""
+    "image": "/images/consumables/raster/revival.png",
+    "svg": "/images/consumables/vector/revival.svg"
 }

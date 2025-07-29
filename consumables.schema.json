@@ -10,8 +10,9 @@
         "purchase_token_amount": {"type": "number"},
         "image": {"type": "string"},
         "animation": {"type": "string"},
+        "svg": {"type": "string"},
         "usage_animation": {"type": "string"},
-        "max_per_user": {"type": "string"}
+        "max_per_user": {"type": "number"}
     },
     "required": [
         "id",

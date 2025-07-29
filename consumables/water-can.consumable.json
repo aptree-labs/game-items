@@ -1,0 +1,10 @@
+{
+    "id": "water-can",
+    "title": "Water Can",
+    "description": "Waters your tree instantly when you’re out of droplets.",
+    "purchasable": true,
+    "purchase_token": "APT",
+    "purchase_token_amount": 1,
+    "image": "/images/consumables/raster/water-can.png",
+    "svg": "/images/consumables/vector/water-can.svg"
+}
