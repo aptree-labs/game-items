@@ -1,0 +1,13 @@
+{
+    "id": "r5",
+    "title": "Tapp Rewards",
+    "description": "Tapp rewards",
+    "platform": "tapp",
+    "token": "APT",
+    "token_amount": 50,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

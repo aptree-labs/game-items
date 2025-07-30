@@ -1,0 +1,13 @@
+{
+    "id": "r11",
+    "title": "KoFi Rewards",
+    "description": "KoFi rewards",
+    "platform": "kofi",
+    "token": "APT",
+    "token_amount": 100,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

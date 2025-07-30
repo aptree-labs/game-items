@@ -1,0 +1,13 @@
+{
+    "id": "r6",
+    "title": "Cellana",
+    "description": "Cellana rewards",
+    "platform": "cellana",
+    "token": "APT",
+    "token_amount": 50,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

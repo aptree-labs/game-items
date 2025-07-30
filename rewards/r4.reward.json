@@ -1,0 +1,13 @@
+{
+    "id": "r4",
+    "title": "KanaLabs Rewards",
+    "description": "KanaLabs rewards",
+    "platform": "kana-labs",
+    "token": "APT",
+    "token_amount": 50,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

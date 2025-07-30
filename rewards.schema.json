@@ -5,8 +5,13 @@
         "id": {"type": "string"},
         "title": {"type": "string"},
         "description": {"type": "string"},
-        "start_time": {"type": "string"},
-        "end_time": {"type": "string"},
+        "status": {
+            "type": "string",
+            "enum": [
+                "open",
+                "closed"
+            ]
+        },
         "platform": {"type": "string"},
         "token": {"type": "string"},
         "token_amount": {"type": "number"},
@@ -31,19 +36,28 @@
                 "on-chain",
                 "off-chain"
             ]
+        },
+        "distributions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "start_time": {"type": "string"},
+                    "end_time": {"type": "string"}
+                }
+            }
         }
     },
     "required": [
         "id",
         "title",
         "description",
-        "start_time",
-        "end_time",
         "platform",
         "token",
         "token_amount",
         "max_claimers",
         "auto_distribute",
-        "type"
+        "type",
+        "distributions"
     ]
 }

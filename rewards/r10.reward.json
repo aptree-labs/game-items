@@ -1,0 +1,13 @@
+{
+    "id": "r10",
+    "title": "Echelon Rewards",
+    "description": "Echelon rewards",
+    "platform": "echelon",
+    "token": "APT",
+    "token_amount": 100,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

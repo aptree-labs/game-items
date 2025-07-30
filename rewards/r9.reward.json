@@ -1,0 +1,13 @@
+{
+    "id": "r9",
+    "title": "Thala Rewards",
+    "description": "Thala rewards",
+    "platform": "thala",
+    "token": "APT",
+    "token_amount": 100,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

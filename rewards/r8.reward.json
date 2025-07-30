@@ -1,0 +1,13 @@
+{
+    "id": "r8",
+    "title": "Aries Rewards",
+    "description": "Aries rewards",
+    "platform": "aries",
+    "token": "USDT",
+    "token_amount": 100,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

@@ -1,0 +1,13 @@
+{
+    "id": "r1",
+    "title": "Hyperion Rewards",
+    "description": "Hyperion rewards",
+    "platform": "hyperion",
+    "token": "APT",
+    "token_amount": 50,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}

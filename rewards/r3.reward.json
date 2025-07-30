@@ -1,0 +1,13 @@
+{
+    "id": "r3",
+    "title": "Fliq Rewards",
+    "description": "Fliq rewards",
+    "platform": "fliq",
+    "token": "APT",
+    "token_amount": 50,
+    "distributions": [],
+    "max_claimers": 100,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false
+}
