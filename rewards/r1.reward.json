@@ -9,5 +9,17 @@
     "max_claimers": 100,
     "status": "open",
     "type": "on-chain",
-    "auto_distribute": false
+    "auto_distribute": false,
+    "elligibility_campaigns": [
+        {
+            "campaing_id": "2",
+            "min_droplets_earned": 0,
+            "min_participation_count": 1
+        },
+        {
+            "campaing_id": "4",
+            "min_droplets_earned": 0,
+            "min_participation_count": 1
+        }
+    ]
 }

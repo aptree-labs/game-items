@@ -42,8 +42,25 @@
             "items": {
                 "type": "object",
                 "properties": {
-                    "start_time": {"type": "string"},
-                    "end_time": {"type": "string"}
+                    "distribution_date" : {"type": "string"},
+                    "elligibility_time_frame": {
+                        "type": "object",
+                        "properties": {
+                            "from": {"type": "string"},
+                            "to": {"type": "string"}
+                        }
+                    }
+                }
+            }
+        },
+        "elligibility_campaigns": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "campaing_id": {"type": "string"},
+                    "min_participation_count": {"type": "number"},
+                    "min_droplets_earned": {"type": "number"}
                 }
             }
         }
@@ -58,6 +75,7 @@
         "max_claimers",
         "auto_distribute",
         "type",
-        "distributions"
+        "distributions",
+        "elligibility_campaigns"
     ]
 }
