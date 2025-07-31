@@ -9,5 +9,6 @@
     "max_claimers": 100,
     "status": "open",
     "type": "on-chain",
-    "auto_distribute": false
+    "auto_distribute": false,
+    "elligibility_campaigns": []
 }
