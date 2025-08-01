@@ -63,6 +63,17 @@
                     "min_droplets_earned": {"type": "number"}
                 }
             }
+        },
+        "send_transaction_type": {
+            "type": "string",
+            "enum": [
+                "default",
+                "send_token_type",
+                "send_fungible"
+            ]
+        },
+        "token_scale": {
+            "type": "number"
         }
     },
     "required": [
@@ -76,6 +87,8 @@
         "auto_distribute",
         "type",
         "distributions",
-        "elligibility_campaigns"
+        "elligibility_campaigns",
+        "send_transaction_type",
+        "token_scale"
     ]
 }
