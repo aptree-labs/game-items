@@ -7,7 +7,15 @@
     "send_transaction_type": "send_token_type",
     "token_scale": 100000000,
     "token_amount": 100,
-    "distributions": [],
+    "distributions": [
+        {
+            "distribution_date": "2025-08-01T15:12:46.216Z",
+            "elligibility_time_frame": {
+                "from": "2025-07-01T15:14:45.166Z",
+                "to": "2025-09-01T15:12:46.216Z"
+            }
+        }
+    ],
     "max_claimers": 100,
     "status": "open",
     "type": "on-chain",
