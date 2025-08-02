@@ -9,10 +9,10 @@
     "token_scale": 1000000,
     "distributions": [
         {
-            "distribution_date": "2025-08-01T15:12:46.216Z",
+            "distribution_date": "2025-08-02T15:12:46.216",
             "elligibility_time_frame": {
-                "from": "2025-07-01T15:14:45.166Z",
-                "to": "2025-09-01T15:12:46.216Z"
+                "from": "2025-07-01T15:14:45.166",
+                "to": "2025-09-01T15:12:46.216"
             }
         }
     ],
