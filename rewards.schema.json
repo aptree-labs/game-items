@@ -42,12 +42,12 @@
             "items": {
                 "type": "object",
                 "properties": {
-                    "distribution_date" : {"type": "string"},
+                    "distribution_date" : {"type": "number"},
                     "elligibility_time_frame": {
                         "type": "object",
                         "properties": {
-                            "from": {"type": "string"},
-                            "to": {"type": "string"}
+                            "from": {"type": "number"},
+                            "to": {"type": "number"}
                         }
                     }
                 }
