@@ -43,25 +43,27 @@
                 "type": "object",
                 "properties": {
                     "distribution_date" : {"type": "number"},
-                    "elligibility_time_frame": {
+                    "eligibility_time_frame": {
                         "type": "object",
                         "properties": {
                             "from": {"type": "number"},
                             "to": {"type": "number"}
                         }
                     }
-                }
+                },
+                "required": ["distribution_date", "eligibility_time_frame"]
             }
         },
-        "elligibility_campaigns": {
+        "eligibility_campaigns": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "campaing_id": {"type": "string"},
+                    "campaign_id": {"type": "string"},
                     "min_participation_count": {"type": "number"},
                     "min_droplets_earned": {"type": "number"}
-                }
+                },
+                "required": ["campaign_id"]
             }
         },
         "send_transaction_type": {
@@ -87,7 +89,7 @@
         "auto_distribute",
         "type",
         "distributions",
-        "elligibility_campaigns",
+        "eligibility_campaigns",
         "send_transaction_type",
         "token_scale"
     ]

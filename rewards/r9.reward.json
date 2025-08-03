@@ -10,7 +10,7 @@
     "distributions": [
         {
             "distribution_date": 1754313600738,
-            "elligibility_time_frame": {
+            "eligibility_time_frame": {
                 "from": 1751548840271,
                 "to": 1754313658863
             }
@@ -20,5 +20,9 @@
     "status": "open",
     "type": "on-chain",
     "auto_distribute": false,
-    "elligibility_campaigns": []
+    "eligibility_campaigns": [
+        {
+            "campaign_id": "12"
+        }
+    ]
 }
