@@ -1,7 +1,7 @@
 {
     "id": "r9",
-    "title": "Thala Rewards",
-    "description": "Thala rewards",
+    "title": "Thala Gala Grail",
+    "description": "Mint, stake, and toast with APT—the grail never fails.",
     "platform": "thala",
     "token": "0x1::aptos_coin::AptosCoin",
     "send_transaction_type": "send_token_type",
@@ -9,10 +9,10 @@
     "token_amount": 100,
     "distributions": [
         {
-            "distribution_date": "2025-08-02T15:12:46.216",
-            "elligibility_time_frame": {
-                "from": "2025-07-01T15:14:45.166",
-                "to": "2025-09-01T15:12:46.216"
+            "distribution_date": 1754313600738,
+            "eligibility_time_frame": {
+                "from": 1751548840271,
+                "to": 1754313658863
             }
         }
     ],
@@ -20,5 +20,9 @@
     "status": "open",
     "type": "on-chain",
     "auto_distribute": false,
-    "elligibility_campaigns": []
+    "eligibility_campaigns": [
+        {
+            "campaign_id": "12"
+        }
+    ]
 }
