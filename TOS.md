@@ -52,4 +52,4 @@ We may update these Terms from time to time. Continued use of the Brand Assets a
 7. Contact
 
 For questions or to request permission for uses not covered here, contact us at:
-📧 info@APTree.io
+📧 info@aptree.io
