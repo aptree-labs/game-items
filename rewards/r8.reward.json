@@ -1,9 +1,9 @@
 {
     "id": "r8",
     "title": "Aries Tether Treasure",
-    "description": "Trade and claim USDt, raise your ledger beyond measure.",
+    "description": "Trade and claim USDC, raise your ledger beyond measure.",
     "platform": "aries",
-    "token": "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
+    "token": "0xbae207659db88bea0cbead6da0ed00aac12edcdda169e591cd41c94180b46f3b",
     "token_amount": 200,
     "send_transaction_type": "send_fungible",
     "token_scale": 1000000,

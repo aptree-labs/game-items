@@ -3,10 +3,10 @@
     "title": "Fliq Slick Stack",
     "description": "Make a market, snag swift APT—profits click into the stack.",
     "platform": "fliq",
-    "token": "0x1::aptos_coin::AptosCoin",
+    "token": "0x679a52c82f26a8feeddab830b1c4c1c69ef789bed7fb42170aceb7c0928e38ea::coin_factory::Emojicoin",
     "send_transaction_type": "send_token_type",
     "token_scale": 100000000,
-    "token_amount": 50,
+    "token_amount": 100000000000000,
     "distributions": [
         {
             "distribution_date": 1754313600738,

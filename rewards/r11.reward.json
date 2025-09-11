@@ -3,10 +3,10 @@
     "title": "Kofi Coffer Chest",
     "description": "Brew yields, unlock weighty APT—the coffer knows what's best.",
     "platform": "kofi",
-    "token": "0x1::aptos_coin::AptosCoin",
-    "send_transaction_type": "send_token_type",
+    "token": "0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105",
+    "send_transaction_type": "send_fungible",
     "token_scale": 100000000,
-    "token_amount": 100,
+    "token_amount": 50,
     "distributions": [
         {
             "distribution_date": 1754313600738,
