@@ -6,7 +6,7 @@
     "token": "0x1::aptos_coin::AptosCoin",
     "send_transaction_type": "send_token_type",
     "token_scale": 100000000,
-    "token_amount": 50,
+    "token_amount": 100,
     "distributions": [
         {
             "distribution_date": 1754313600738,
