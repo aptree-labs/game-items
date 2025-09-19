@@ -1,0 +1,28 @@
+{
+    "id": "r13",
+    "title": "Earnium Premium",
+    "description": "Premiums are hard to get, unless you cultivate your tree until it's harder that titanium",
+    "platform": "earnium",
+    "token": "0x6aca0469a32958c283e5d251447b00577578c7a0cdcc8edaf8182b104101b12d",
+    "send_transaction_type": "send_fungible",
+    "token_scale": 1000000,
+    "token_amount": 500,
+    "distributions": [
+        {
+            "distribution_date": 1754313600738,
+            "eligibility_time_frame": {
+                "from": 1751548840271,
+                "to": 1754313658863
+            }
+        }
+    ],
+    "max_claimers": 10,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false,
+    "eligibility_campaigns": [
+        {
+            "campaign_id": "9999"
+        }
+    ]
+}
