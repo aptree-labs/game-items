@@ -1,0 +1,28 @@
+{
+    "id": "r17",
+    "title": "Aptree Droplete Whale",
+    "description": "Damn! you're tree will flood.",
+    "platform": "aptree",
+    "token": "0x1::aptos_coin::AptosCoin",
+    "send_transaction_type": "send_token_type",
+    "token_scale": 100000000,
+    "token_amount": 10,
+    "distributions": [
+        {
+            "distribution_date": 1754313600738,
+            "eligibility_time_frame": {
+                "from": 1751548840271,
+                "to": 1754313658863
+            }
+        }
+    ],
+    "max_claimers": 10,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false,
+    "eligibility_campaigns": [
+        {
+            "campaign_id": "9999"
+        }
+    ]
+}
