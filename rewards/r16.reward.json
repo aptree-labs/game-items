@@ -1,12 +1,12 @@
 {
-    "id": "r4",
-    "title": "Xyra Fire",
-    "description": "Rapid-swap and bank fresh APT—good karma keeps you calm.",
-    "platform": "kana-labs",
+    "id": "r16",
+    "title": "Aptree x Fliq",
+    "description": "Aptree x Fliq",
+    "platform": "aptree",
     "token": "0x1::aptos_coin::AptosCoin",
     "send_transaction_type": "send_token_type",
     "token_scale": 100000000,
-    "token_amount": 50,
+    "token_amount": 25,
     "distributions": [
         {
             "distribution_date": 1754313600738,
@@ -16,15 +16,13 @@
             }
         }
     ],
-    "max_claimers": 100,
+    "max_claimers": 10,
     "status": "open",
     "type": "on-chain",
     "auto_distribute": false,
     "eligibility_campaigns": [
         {
-            "campaign_id": "3",
-            "min_droplets_earned": 0,
-            "min_participation_count": 1
+            "campaign_id": "9999"
         }
     ]
 }

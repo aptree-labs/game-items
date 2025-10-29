@@ -1,0 +1,28 @@
+{
+    "id": "r14",
+    "title": "Aptree x KoFi",
+    "description": "Aptree x KoFi",
+    "platform": "aptree",
+    "token": "0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105",
+    "send_transaction_type": "send_fungible",
+    "token_scale": 100000000,
+    "token_amount": 25,
+    "distributions": [
+        {
+            "distribution_date": 1754313600738,
+            "eligibility_time_frame": {
+                "from": 1751548840271,
+                "to": 1754313658863
+            }
+        }
+    ],
+    "max_claimers": 10,
+    "status": "open",
+    "type": "on-chain",
+    "auto_distribute": false,
+    "eligibility_campaigns": [
+        {
+            "campaign_id": "9999"
+        }
+    ]
+}
